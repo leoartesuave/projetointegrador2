@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+h1, h2, h3 ,h4, h5, h6, p, span {
+    margin: 0;
+    color: #666;
+} 
+.container2{
+    max-width: 1920px;
+    width: 100%;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+nav::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}#logo {
+    width: 90px;
+    height: 75px;
+    margin-top: 25px;
+}
+
+.nav-container ul{
+    float: right;
+    height: 100px;
+    line-height: 150px;
+    margin: 0;
+}
+.nav-container li {
+    list-style: none;
+    font-size: 25px;
+    float: left;
+   margin: 0 15px;
+}
+.nav-container li a {
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+.nav-container li a:hover {
+    
+    color: #3381f3;
+    
+}
+main{
+    overflow: hidden;
+    display: block;
+}
+
+.pacotes{
+ 
+    width: 700px;
+    height: 500px;
+    float: left;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.viagem{
+  
+       width: 800px;
+       height: 500px;
+       float: right;
+       margin-top: 300px;
+       margin-right: 250px;
+       display: flex;
+       justify-content: space-evenly;
+       
+       
+       
+}  
+
+.cristo{
+    border-radius: 25px ;
+    border: 5px solid #666;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+   box-shadow: 5px;
+}
+.ita{
+    border-radius: 25px ;
+    border: 5px solid #666;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px;
+}
+.luz{
+    border-radius: 25px ;
+    border: 5px solid #666;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    box-shadow: 5px;
+}
+.login{
+    width: 500px;
+    height: 500px;
+    clear: both;
+    float: left;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+div button:hover{
+border: solid 2px black;
+}
+
+.formula{
+    position: absolute;
+  margin-left: 100px;
+    width: 300px;
+    height: 400px;
+ 
+}
+.formula input {
+    margin-top: 20px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+}
+button[type="submit"] {
+    background: #006241;
+    color: white;
+    border-radius: 30px;
+    width: 40%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 0;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  button[type="reset"] {
+    background: #006241;
+    color: white;
+    border-radius: 30px;
+    width: 40%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 0;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 50px; ;
+    cursor: pointer;
+  }
+  .rodape{
+    background-color: whitesmoke;
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    margin-top: -200px;
+    display: fixed; 
+    justify-content:center;  
+   
+  }
+  .rodape img{
+    margin: 10px;
+    margin-top: 40px;
+  }
+  .rodape p{
+    
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 20px;
+   
+  }

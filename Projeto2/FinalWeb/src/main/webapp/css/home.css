@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+h1, h2, h3 ,h4, h5, h6, p, span {
+    margin: 0;
+    color: #666;
+} 
+.container2{
+    max-width: 1920px;
+    width: 100%;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+nav::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}#logo {
+    width: 90px;
+    height: 75px;
+    margin-top: 25px;
+    float: left;
+    margin-right: 100px;
+}
+
+.nav-container ul{
+    float:left;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+.nav-container li {
+    list-style: none;
+    font-size: 25px;
+    float: left;
+   margin: 0 15px;
+}
+.nav-container li a {
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+.nav-container li a:hover {
+    
+    color: #3381f3;
+    
+}
+.pessoa{
+    float: right;
+    margin-top: 30px;
+}
+.logout{
+    clear: both;
+    float: right;
+    margin-top: -30px;
+    margin-right: 85px;
+    text-decoration: underline 3px;
+    cursor: pointer;
+}
+main{
+    overflow: hidden;
+    display: block;
+}
+
+.pacotes{
+ 
+    width: 700px;
+    height: 500px;
+    float: left;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.viagem{
+  
+       width: 800px;
+       height: 500px;
+       float: right;
+       margin-top: 300px;
+       margin-right: 250px;
+       display: flex;
+       justify-content: space-evenly;
+       
+       
+       
+}  
+
+.cristo{
+    border-radius: 25px ;
+    border: 5px solid #666;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+   box-shadow: 5px;
+}
+.ita{
+    border-radius: 25px ;
+    border: 5px solid #666;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px;
+}
+.luz{
+    border-radius: 25px ;
+    border: 5px solid #666;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    box-shadow: 5px;
+}
